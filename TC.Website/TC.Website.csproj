@@ -168,6 +168,12 @@
     <Content Include="Views\Components\TitleImagePrinciples.cshtml" />
     <Content Include="Views\Components\TitleImageWaterAid.cshtml" />
     <Content Include="Views\Layout.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
