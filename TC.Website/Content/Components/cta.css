@@ -1,0 +1,50 @@
+﻿.cta {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.cta .content {
+  margin: 0;
+  padding: 2.5% 0;
+}
+.cta .content p {
+  margin: 0;
+}
+.cta .content a {
+  color: #ffffff;
+}
+.cta .content a:hover {
+  color: #ffffff;
+}
+.background.cta {
+  background: #91b1fa;
+}
+.background.cta:hover {
+  background: #f49913;
+}
+.background.cta .content {
+  text-align: center;
+}
+.container.cta {
+  background-color: #2f5799;
+}
+.container.cta:hover {
+  background: #f49913;
+}
+.container.cta:hover .content h2 {
+  color: #000000;
+}
+.container.cta .content h2 {
+  color: #91b1fa;
+  margin-top: 0;
+  transition: color 400ms ease;
+  -moz-transition: color 400ms ease;
+  -webkit-transition: color 400ms ease;
+  -o-transition: color 400ms ease;
+}
+.container.cta .content h3 {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=cta.css.map */

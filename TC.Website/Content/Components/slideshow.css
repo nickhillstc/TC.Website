@@ -1,0 +1,38 @@
+﻿.cycle-slideshow {
+  overflow: hidden;
+  height: 80%;
+}
+.cycle-slideshow .title {
+  height: 100%;
+  border-bottom: none;
+  padding-bottom: 64px;
+}
+.cycle-slideshow .title .container .content h1 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#pager {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  left: 15px;
+}
+#pager span {
+  font-size: 40px;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+#pager span:hover {
+  color: #ccc;
+}
+@media (min-width: 768px) {
+  #pager {
+    left: 50%;
+    margin-left: -84px;
+  }
+}
+.cycle-pager-active {
+  color: #91b1fa !important;
+  /* #0a1322 */
+}
+/*# sourceMappingURL=slideshow.css.map */

@@ -1,0 +1,37 @@
+﻿@functions {
+    string isActive(string title)
+    {
+        return (Page.Title == title) ? "active" : null;
+    }
+    
+    string isTransparent()
+    {
+        return (Page.Title != "Blog" && Page.Title != "Navigation") ? "transparent" : null;
+    }
+} 
+
+
+
+<div id="header_nav" class="navbar navbar-fixed-top @isTransparent()" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="~/">True Clarity</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="@isActive("Home")"><a href="~/">Home</a></li>
+                <li class="@isActive("Culture")"><a href="~/Culture.cshtml">Culture</a></li>
+                <li class="@isActive("Careers")"><a href="~/Careers.cshtml">Careers</a></li>
+                <li class="@isActive("Contact")"><a href="~/Contact.cshtml">Contact us</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+

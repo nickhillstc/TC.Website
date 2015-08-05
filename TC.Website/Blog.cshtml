@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Layout.cshtml";
+    Page.Title = "Blog";
+}
+
+@section ComponentStyles {
+    <link href="~/Content/Components/Navigation.css" rel="stylesheet" />
+    <link href="~/Content/Components/Footer.css" rel="stylesheet" />
+    <link href="~/Content/Components/BoxGrid.css" rel="stylesheet" />
+}
+
+<!--<body id="blog">-->
+
+@RenderPage("~/Views/Components/Navigation.cshtml")
+
+@RenderPage("~/Views/Components/BlogList.cshtml")
+
+@RenderPage("~/Views/Components/Footer.cshtml")
+
+@section ComponentScripts {
+    <script src="/Scripts/Components/Navigation.js"></script>
+    <script src="/Scripts/Components/BoxGrid.js"></script>
+}

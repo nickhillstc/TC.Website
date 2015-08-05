@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <title>TC | @Page.Title</title>
+
+    <!-- Framework Styles -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-support-ie10-width.css" rel="stylesheet" />
+    <link href="~/Content/Layout/type.css" rel="stylesheet" />
+    <link href="~/Content/Layout/Fonts.css" rel="stylesheet" />
+    <link href="~/Content/Layout/Layout.css" rel="stylesheet" />
+    <link href="~/Content/Layout/title.css" rel="stylesheet" />
+
+    <!-- Component Styles -->
+    @RenderSection("ComponentStyles", required: false)
+
+    <!-- https://github.com/scottjehl/Respond -->
+    <!--[if lt IE 9]>
+        <script src="~/scripts/respond.js"></script>
+        <script src="~/Scripts/_html5shiv.cshtml"></script>
+    <![endif]-->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="~/Scripts/bootstrap-support-ie10-width.js"></script>
+    <script src="~/Scripts/Layout/ie-emulation-modes-warning.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Body -->
+    @RenderBody()
+
+    <!-- Framework Scripts -->
+    <script src="~/Scripts/jquery-2.1.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+
+    <!-- Layout Scripts -->
+    <script src="~/Scripts/Layout/Clickable.js"></script>
+
+    <!-- Component Scripts -->
+    @RenderSection("ComponentScripts", required: false)
+
+</body>
+</html>

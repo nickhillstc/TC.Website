@@ -1,17 +1,29 @@
 ﻿@{
-    Layout = null;
+    Layout = "~/Views/Layout.cshtml";
+    Page.Title = "Home";
 }
 
-<!DOCTYPE html>
+@section ComponentStyles {
+    <link href="~/Content/Components/Navigation.css" rel="stylesheet" />
+    <link href="~/Content/Components/Footer.css" rel="stylesheet" />
+    <link href="~/Content/Components/Slideshow.css" rel="stylesheet" />
+    <link href="~/Content/Components/Cta.css" rel="stylesheet" />
+    <link href="~/Content/Components/Clients.css" rel="stylesheet" />
+}
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-</head>
-<body>
-    <div>
-    True Clarity Website
-    </div>
-</body>
-</html>
+@RenderPage("~/Views/Components/Navigation.cshtml")
+
+@RenderPage("~/Views/Components/Slideshow.cshtml")
+
+@RenderPage("~/Views/Components/CtaHome.cshtml")
+
+@RenderPage("~/Views/Components/IntroContentHome.cshtml")
+
+@RenderPage("~/Views/Components/Clients.cshtml")
+
+@RenderPage("~/Views/Components/Footer.cshtml")
+
+@section ComponentScripts {
+    <script src="/Scripts/jquery.cycle2.js"></script>
+    <script src="/Scripts/Components/Navigation.js"></script>
+}

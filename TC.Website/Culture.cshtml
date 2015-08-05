@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Layout.cshtml";
+    Page.Title = "Culture";
+}
+
+@section ComponentStyles {
+    <link href="~/Content/Components/Navigation.css" rel="stylesheet" />
+    <link href="~/Content/Components/Footer.css" rel="stylesheet" />
+    <link href="~/Content/Components/StatementBlocks.css" rel="stylesheet" />
+}
+
+@RenderPage("~/Views/Components/Navigation.cshtml")
+
+@RenderPage("~/Views/Components/TitleImageCulture.cshtml")
+
+@RenderPage("~/Views/Components/IntroContentCulture.cshtml")
+
+@RenderPage("~/Views/Components/StatementBlocks.cshtml")
+
+@RenderPage("~/Views/Components/Footer.cshtml")
+
+@section ComponentScripts {
+    <script src="/Scripts/Components/Navigation.js"></script>
+    <script src="/Scripts/Components/StatementFadeUp.js"></script>
+}

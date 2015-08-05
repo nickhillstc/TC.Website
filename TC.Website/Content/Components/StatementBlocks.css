@@ -1,0 +1,26 @@
+﻿@media (min-width: 992px) {
+
+    .col-md-pull-right {
+        float: right;
+    }
+
+    .statement-block {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .statement-fade-up {
+        position: absolute;
+        top: -150px;
+        left: 50%;
+        margin-left: -175px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .statement-block {
+        height: 350px;
+        overflow: hidden;
+    }
+}

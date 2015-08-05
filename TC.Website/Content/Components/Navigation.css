@@ -1,0 +1,128 @@
+﻿.navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 5px;
+}
+@media (max-width: 767px) {
+  .navbar {
+    padding: 0;
+    height: 55px;
+  }
+}
+/*@media all and (min-width:768px)*/
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  width: 260px;
+  line-height: 20px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 0;
+  text-indent: -9999px;
+  background: url(/Images/Navigation/true-logo.png) no-repeat;
+  transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -o-transition: background 0.5s;
+}
+@media (max-width: 767px) {
+  .navbar-brand {
+    /* Add SVG for logo */
+    float: left;
+    padding: 15px 15px;
+    line-height: 20px;
+    width: 61px;
+    height: 55px;
+    margin-top: 0;
+    text-indent: -9999px;
+    background: url(/Images/Navigation/true-logo-mobile.png) no-repeat;
+  }
+}
+.navbar-brand:hover {
+  background: url(/Images/Navigation/true-logo-hover.png) no-repeat;
+}
+@media (max-width: 767px) {
+  .navbar-brand:hover {
+    background: url(/Images/Navigation/true-logo-mobile-hover.png) no-repeat;
+  }
+}
+.nav > li > a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: DINWeb-Bold, sans-serif;
+}
+@media (max-width: 767px) {
+  .nav > li > a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: DINWeb-Bold, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: -2px;
+    padding: 10px 10px;
+  }
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background: none;
+  color: #f49913;
+}
+@media (max-width: 767px) {
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    color: #f49913;
+  }
+}
+.navbar-toggle {
+  padding: 8px 10px;
+}
+.navbar-toggle .icon-bar {
+  width: 32px;
+  height: 4px;
+  border-radius: 0px;
+  background: #ffffff;
+}
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:focus {
+  color: #91b1fc;
+}
+@media (max-width: 767px) {
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:focus {
+    color: #2f5799;
+  }
+}
+#blog .navbar {
+  background: #2f5799;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navbar.tiny {
+  background: #2f5799;
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  -ms-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  transition-delay: 200ms;
+  -webkit-transition-delay: 200ms;
+  -moz-transition-delay: 200ms;
+  -o-transition-delay: 200ms;
+  -ms-transition-delay: 200ms;
+}
+@media (max-width: 767px) {
+  .navbar-collapse {
+    max-height: 100%;
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #91b1fa;
+    border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/*# sourceMappingURL=Navigation.css.map */
