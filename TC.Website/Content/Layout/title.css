@@ -1,0 +1,60 @@
+﻿.title {
+  background-color: #2f5799;
+  border-bottom: 15px solid #91b1fa;
+  padding-top: 55px;
+  padding-bottom: 20px;
+  min-height: 135px;
+}
+.title.image {
+  background-color: #182d50;
+  height: 70%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-behavior: url(/Scripts/backgroundsize.min.htc);
+}
+.title.image .container {
+  height: 100%;
+}
+.title.image .container .content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.title .container .content {
+  padding-top: 5%;
+  color: #ffffff;
+}
+.image.about {
+  background-image: url('/Images/TitleImages/about.jpg');
+}
+.image.asos {
+  background-image: url('/Images/TitleImages/asos.jpg');
+}
+.image.conservatives {
+  background-image: url('/Images/TitleImages/conservatives.jpg');
+}
+.image.culture {
+  background-image: url('/Images/TitleImages/culture.jpg');
+}
+.image.dyson {
+  background-image: url('/Images/TitleImages/dyson.jpg');
+}
+.image.easyjet {
+  background-image: url('/Images/TitleImages/easyjet.jpg');
+}
+.image.macmillian {
+  background-image: url('/Images/TitleImages/macmillian.jpg');
+}
+.image.people {
+  background-image: url('/Images/TitleImages/people.jpg');
+}
+.image.wateraid {
+  background-image: url('/Images/TitleImages/wateraid.jpg');
+}
+/*# sourceMappingURL=title.css.map */

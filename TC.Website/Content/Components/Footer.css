@@ -1,0 +1,111 @@
+﻿/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+
+footer {
+    background: #2f5799;
+    color: #fff;
+    padding: 15px 0 10px 0;
+}
+
+    footer p {
+        display: inline;
+        float: left;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+        footer a:hover {
+            color: #f49913;
+            text-decoration: underline;
+        }
+
+
+
+    footer .social {
+        display: inline;
+        margin-left: 20px;
+        float: right;
+    }
+
+        footer .social a {
+            text-decoration: none;
+            border: 0;
+            background: #fff;
+            color: #2f5799 !important;
+            border-radius: 20px;
+            height: 40px;
+            width: 40px;
+            padding-top: 5px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            line-height: 29px;
+            margin: 0 4px;
+            transition: background 0.5s;
+            -moz-transition: background 0.5s;
+            -webkit-transition: background 0.5s;
+            -o-transition: background 0.5s;
+        }
+
+            footer .social a i {
+                text-decoration: none;
+            }
+
+            footer .social a:hover {
+                background: #f49913;
+            }
+
+                footer .social a:hover i {
+                    color: #fff;
+                }
+
+@media (max-width: 767px) {
+
+    footer .social {
+        display: inline;
+        margin-left: 0px;
+        float: left;
+        margin: 30px 0px;
+    }
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "true";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1.4em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-twitter:before { content: '\e801'; } /* '' */
+.icon-linkedin:before { content: '\e802'; } /* '' */
+.icon-instagramm:before { content: '\e803'; } /* '' */
+.icon-facebook:before { content: '\e804'; } /* '' */

@@ -1,0 +1,143 @@
+﻿html {
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: DINWeb, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #F5F5F5;
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+}
+/* ==========================================================================
+   Helper Styles
+   ========================================================================== */
+.mt {
+  margin-top: 30px;
+}
+.mb {
+  margin-bottom: 30px;
+}
+.np {
+  padding: 0 !important;
+}
+.ptpb {
+  padding: 5% 0%;
+}
+.pt {
+  padding-top: 5%;
+}
+.pb {
+  padding-bottom: 5%;
+}
+.p40 {
+  padding: 40px;
+}
+.mt0 {
+  margin-top: 0;
+}
+.h100 {
+  height: 100%;
+}
+.pr {
+  position: relative;
+}
+.di {
+  display: inline;
+}
+.db {
+  display: block;
+}
+.oh {
+  overflow: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ct {
+  text-align: center;
+}
+.white-bg {
+  background: #fff;
+}
+.light-blue-bg {
+  background: #91b1fa;
+}
+.blue {
+  color: #91b1fa;
+}
+.overflow {
+  overflow: auto;
+}
+.display-table {
+  display: table;
+}
+.display-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.fade-all {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.fade-colour {
+  transition: color 400ms ease;
+  -moz-transition: color 400ms ease;
+  -webkit-transition: color 400ms ease;
+  -o-transition: color 400ms ease;
+}
+.fade-opacity {
+  transition: opacity 400ms ease;
+  -moz-transition: opacity 400ms ease;
+  -webkit-transition: opacity 400ms ease;
+  -o-transition: opacity 400ms ease;
+}
+.fade-bg {
+  transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -o-transition: background 0.5s;
+}
+.ease-bg,
+.backtotop {
+  -webkit-transition: background 400ms ease;
+  -moz-transition: background 400ms ease;
+  -o-transition: background 400ms ease;
+  -ms-transition: background 400ms ease;
+  transition: background 400ms ease;
+}
+.clickable {
+  cursor: pointer;
+}
+.background {
+  width: 100%;
+}
+/* ==========================================================================
+   Display Table Styles
+   ========================================================================== */
+div.container.display-table {
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .display-table {
+    display: table;
+  }
+  .display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+/*# sourceMappingURL=layout.css.map */

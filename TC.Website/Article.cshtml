@@ -1,0 +1,20 @@
+﻿@{
+    Layout = "~/Views/Layout.cshtml";
+    Page.Title = "Article";
+}
+
+@section ComponentStyles {
+    <link href="~/Content/Components/Navigation.css" rel="stylesheet" />
+    <link href="~/Content/Components/Article.css" rel="stylesheet" />
+    <link href="~/Content/Components/Footer.css" rel="stylesheet" />
+}
+
+@RenderPage("~/Views/Components/Navigation.cshtml")
+
+@RenderPage("~/Views/Components/Article.cshtml")
+
+@RenderPage("~/Views/Components/Footer.cshtml")
+
+@section ComponentScripts {
+    <script src="/Scripts/Components/Navigation.js"></script>
+}

@@ -1,0 +1,90 @@
+﻿.contact-intro {
+    height: 100%;
+    background: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.map-headline {
+    z-index: 999;
+    font-family: DINWeb-Bold, sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+    line-height: 1.1em;
+}
+
+    .map-headline address {
+        font-style: normal;
+        line-height: 1.1em;
+    }
+
+    .map-headline a {
+        color: #fff;
+    }
+
+        .map-headline a:hover {
+            color: #f49913;
+        }
+
+@media (min-width: 768px) {
+
+    .map-headline {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .contact-intro {
+        width: 50%;
+        float: left;
+    }
+
+    .map-headline {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .map-headline {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .map-headline {
+        font-size: 28px;
+    }
+}
+
+#map_canvas1,
+#map_canvas2 {
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    border-bottom: 15px solid #91b1fa;
+}
+
+
+#map_canvas1 {
+    background: #23447c !important; /* Forced to use !important because of Google adding inline styles. */
+}
+
+#map_canvas2 {
+    background: #335ea6 !important; /* Forced to use !important because of Google adding inline styles. */
+}
+
+.map1 {
+    background: #23447c;
+}
+
+.map2 {
+    background: #335ea6;
+}

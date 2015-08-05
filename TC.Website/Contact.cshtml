@@ -1,0 +1,26 @@
+﻿@{
+    Layout = "~/Views/Layout.cshtml";
+    Page.Title = "Contact";
+}
+
+@section ComponentStyles {
+    <link href="~/Content/Components/Navigation.css" rel="stylesheet" />
+    <link href="~/Content/Components/Footer.css" rel="stylesheet" />
+    <link href="~/Content/Components/Map.css" rel="stylesheet" />
+    <link href="~/Content/Components/Form.css" rel="stylesheet" />
+}
+
+@RenderPage("~/Views/Components/Navigation.cshtml")
+
+
+@RenderPage("~/Views/Components/Map.cshtml")
+
+<div class="container"></div>
+
+@RenderPage("~/Views/Components/Footer.cshtml")
+
+@section ComponentScripts {
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language="></script>
+    <script src="/Scripts/Components/Navigation.js"></script>
+    <script src="/Scripts/Components/Map.js"></script>
+}

@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "~/Views/Layout.cshtml";
+    Page.Title = "Careers";
+}
+
+@section ComponentStyles {
+    <link href="~/Content/Components/Navigation.css" rel="stylesheet" />
+    <link href="~/Content/Components/Cta.css" rel="stylesheet" />
+    <link href="~/Content/Components/Footer.css" rel="stylesheet" />
+    <link href="~/Content/Components/Jobs.css" rel="stylesheet" />
+}
+
+@RenderPage("~/Views/Components/Navigation.cshtml")
+
+@RenderPage("~/Views/Components/TitleImageCareers.cshtml")
+
+@RenderPage("~/Views/Components/IntroContentCareers.cshtml")
+
+@RenderPage("~/Views/Components/Jobs.cshtml")
+
+@RenderPage("~/Views/Components/CtaCareers.cshtml")
+
+@RenderPage("~/Views/Components/Footer.cshtml")
+
+@section ComponentScripts {
+    <script src="/Scripts/Components/Navigation.js"></script>
+}
