@@ -1,7 +1,5 @@
 # TC.Website
 
-Commits to the Preview Branch publish here:
+Commits pushed to the Master Branch will be published to an Azure deployment slot called Stage via continuous deployment.
 
-http://tc-website-html-preview.azurewebsites.net/
-
-Currently swapping into the production deployment slot.
+From there swap them into production.
